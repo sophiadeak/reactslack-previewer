@@ -1,0 +1,111 @@
+.rs-wrapper {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+
+.reactslack-previewer {
+  background: white;
+
+  flex-grow: 1;
+  padding: 10px;
+
+  color: rgb(29, 28, 29);
+  font-family: Slack-Lato, appleLogo, sans-serif;
+  font-size: 15px;
+  font-family: Slack-Lato, appleLogo, sans-serif;
+  text-align: left;
+
+  .code {
+    padding: 2px 3px 1px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background-color: rgba(29, 28, 29, 0.04);
+    font-family: Monaco, Menlo, Consolas, Courier New, monospace !important;
+    font-size: 12px;
+    color: #e01e5a;
+    margin-right: 4px;
+    padding: 2px 3px 1px 2px;
+  }
+
+  .code-block {
+    color: rgb(29, 28, 29);
+    font-size: 12px;
+    font-family: Monaco, Menlo, Consolas, Courier New, monospace !important;
+    border: 1px solid #d9d9d9;
+    background-color: #f6f6f6;
+    border-radius: 4px;
+
+    padding: 8px;
+    margin: 0 10px;
+    text-align: left;
+  }
+
+  .blockquote {
+    position: relative;
+    color: hotpink;
+    line-height: 1.5;
+    margin: 0 5px;
+    text-align: left;
+    padding-left: 12px;
+  }
+
+  .blockquote::before {
+    width: 5px;
+    border-radius: 5px;
+    background: orange;
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 110%;
+  }
+
+  code {
+    padding: 2px 3px 1px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    background-color: rgba(29, 28, 29, 0.04);
+    font-family: Monaco, Menlo, Consolas, Courier New, monospace !important;
+    font-size: 12px;
+    color: #e01e5a;
+    margin-right: 4px;
+    padding: 2px 3px 1px 2px;
+  }
+
+  blockquote {
+    position: relative;
+    color: rgb(29, 28, 29);
+    line-height: 1.5;
+    margin: 0 5px;
+    text-align: left;
+    padding-left: 12px;
+  }
+
+  blockquote::before {
+    width: 4px;
+    border-radius: 8px;
+    background: #dddddd;
+    content: "";
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  #fence {
+    color: rgb(29, 28, 29);
+    font-size: 12px;
+    font-family: Monaco, Menlo, Consolas, Courier New, monospace !important;
+    border: 1px solid #d9d9d9;
+    background-color: #f6f6f6;
+    border-radius: 4px;
+
+    padding: 8px;
+    margin: 0 10px;
+    text-align: left;
+  }
+}
+
+}
